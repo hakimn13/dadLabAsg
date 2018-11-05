@@ -36,9 +36,18 @@ How to use :
 - Click the Marker to see your latitude and longitude
 
 The parameter that the API able to receive :
- By 
+  -	By geographic coordinates
+    API Call : 
+    https://maps.googleapis.com/maps/api/geocode/json?latlng={latitude,longitude}&key={Your_API_KEY}
+    
+    Parameter :
+    latlng coordinates of your current location
+    
+    Examples of API Call :
+    https://maps.googleapis.com/maps/api/geocode/json?latlng=2.2799587,102.2785994&key={Your_API_KEY}
 
 The responses that the API return (the JSON values) :
+
 {
    "results" : [
       {
